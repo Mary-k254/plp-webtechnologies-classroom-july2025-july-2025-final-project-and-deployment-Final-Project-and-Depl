@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery — My Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html">MyBrand</a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/gallery.html" class="active">Works</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Gallery / Works</h1>
+    <div class="cards">
+      <article class="card">
+        <img src="/assets/images/projects/project1.jpg" alt="Project one screenshot">
+        <h2>Project One</h2>
+      </article>
+      <article class="card">
+        <img src="/assets/images/projects/project2.jpg" alt="Project two screenshot">
+        <h2>Project Two</h2>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> MyBrand</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
